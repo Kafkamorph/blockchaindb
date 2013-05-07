@@ -138,7 +138,7 @@ function main() {
         global $destination;
         global $info;
                
-	mysql_connect("localhost", "blockchain", "RV9Ls3cy28xXcVhp", "blockchain") or die(mysql_error());
+	mysql_connect("localhost", "<username here>", "<insert password here>", "blockchain") or die(mysql_error());
 	
 	for ($i = $start; $i <= $destination; $i++) {
 	        $info = 0;
